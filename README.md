@@ -1,4 +1,4 @@
-# Travel Landing Page
+# Travel
 
 Welcome to the Travel Landing Page! This is a captivating landing page designed for a travel-related website, meant to engage and inspire visitors to explore the world.
 
