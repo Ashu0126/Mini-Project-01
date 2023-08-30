@@ -26,6 +26,7 @@
   z-index: 2;
   transition: 0.5s;
 }
+
 .showcase.active {
   right: 300px;
 }
@@ -41,26 +42,29 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
   text-transform: uppercase;
   cursor: pointer;
 }
 
-.toggle,
-.toggle.active {
+.toggle {
   position: relative;
   width: 60px;
   height: 60px;
+  background: url("https://i.ibb.co/HrfVRcx/menu.png");
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
   cursor: pointer;
 }
-.toggle {
-  background: url("https://i.ibb.co/HrfVRcx/menu.png");
-}
+
 .toggle.active {
   background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
 }
 
 .showcase video {
@@ -88,16 +92,18 @@
   z-index: 10;
 }
 
-.text h2,
-.text h3 {
+.text h2 {
   font-size: 5em;
   font-weight: 800;
   line-height: 1em;
   text-transform: uppercase;
 }
+
 .text h3 {
   font-size: 4em;
   font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
 }
 
 .text p {
@@ -119,8 +125,8 @@
   letter-spacing: 2px;
   border-style: solid;
   border-width: 1px;
-  transition: letter-spacing 0.5s;
 }
+
 .text a:hover {
   letter-spacing: 6px;
 }
@@ -142,8 +148,9 @@
   filter: invert(1);
   margin-right: 20px;
   transform: scale(0.5);
-  transition: transform 0.5s;
+  transition: 0.5s;
 }
+
 .social li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
@@ -180,8 +187,11 @@
     padding: 40px;
   }
 
-  .text h2,
-  .text h3 {
+  .text h2 {
     font-size: 3em;
+  }
+
+  .text h3 {
+    font-size: 2em;
   }
 }
