@@ -6,7 +6,7 @@ Welcome to the Travel Landing Page! This is a captivating landing page designed 
 
 - [Description](#description)
 - [Features](#features)
-- - [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
